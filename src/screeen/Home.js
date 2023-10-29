@@ -3,7 +3,7 @@ import React from 'react'
 import Menu from '../component/Menu';
 
 const Home = (props) => {
-    const description = "Boost your career and stand out from the competition with this dynamic digital marketing program powered by Gen AI.";
+    const description = '"Technology will not replace great teachers, but technology in the hands of great teachers can be transformational."';
     return (
         <View style={styles.mainContainer}>
             <View style={styles.container}>
@@ -12,7 +12,7 @@ const Home = (props) => {
                     source={require("../../assets/img1.png")}
                 />
                 <Text style={styles.text1}>Welcome To</Text>
-                <Text style={styles.text2}>Mohd Fuzail Store</Text>
+                <Text style={styles.text2}>E-Learning Platform</Text>
                 <Text style={styles.text3}>{description}.</Text>
                 <View><Menu/></View>
             </View>
@@ -55,6 +55,8 @@ const styles = StyleSheet.create({
         marginLeft: 0,
         paddingHorizontal:15,
         fontSize: 15,
+        
+        
     },
     image: {
         height: 200,
