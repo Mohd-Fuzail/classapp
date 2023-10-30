@@ -37,7 +37,7 @@ const About = () => {
         <TouchableOpacity
           style={styles.buttonStyle}
           onPress={() =>
-            Linking.openURL("https://www.instagram.com/mohd.__fuzail")
+            Linking.openURL("")
           }>
           <Image
             style={styles.iconStyle}
@@ -51,7 +51,7 @@ const About = () => {
           style={styles.buttonStyle}
           onPress={() =>
             Linking.openURL(
-              "https://www.linkedin.com/in/mohd-fuzail-7bb21a22a"
+              ""
             )
           }>
           <Image
@@ -62,7 +62,7 @@ const About = () => {
 
         <TouchableOpacity
           style={styles.buttonStyle}
-          onPress={() => Linking.openURL("https://github.com/Mohd-Fuzail")}>
+          onPress={() => Linking.openURL("")}>
           <Image
             style={styles.iconStyle}
             source={require('../../assets/github.png')}
